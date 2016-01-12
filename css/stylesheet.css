@@ -1,0 +1,52 @@
+.wrapper {
+  font-family: 'Lora', serif;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image {
+  width: 200px;
+  float: right;
+}
+
+h1 {
+  margin-top: 50px;
+  margin-left: 270px;
+  margin-bottom: 50px;
+  color: #7CC4F0;
+  font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+  font-size: 20px;
+  margin-left: 160px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom:3px solid #7CC4F0;
+ font-family: 'Roboto', sans-serif;
+}
+
+.box {
+  padding-left: 160px;
+}
+
+.box2 {
+  padding-left: 140px;
+}
+
+.ausbildung {
+  margin-top: 80px;
+}
+
+.beruflich {
+  margin-top: 50px;
+}
+
+.weiteres {
+  margin-top: 50px;
+}
+
+.personliches {
+  margin-top: 50px;
+}
