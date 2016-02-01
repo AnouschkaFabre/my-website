@@ -1,0 +1,30 @@
+#nav {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height:50px;
+}
+
+#navbox1 {
+	font-family: sans-serif;
+	font-size: 20px;
+}
+
+#navbox2 {
+	font-family: sans-serif;
+	font-size: 20px;
+}
+
+#navbox3 {
+	font-family: sans-serif;
+	font-size: 20px;
+}
+
+#illustrations {
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
