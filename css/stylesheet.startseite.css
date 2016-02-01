@@ -6,7 +6,23 @@ h1 {
   font-family: 'Roboto', sans-serif;
 }
 
-.nav {
-  display:flex; 
-  justify-content: center;
+#container {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#box1 {
+	font-family: sans-serif;
+	font-size: 20px;
+}
+
+#box2 {
+	font-family: sans-serif;
+	font-size: 20px;
+}
+
+#box3 {
+	font-family: sans-serif;
+	font-size: 20px;
 }
