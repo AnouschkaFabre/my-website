@@ -7,8 +7,17 @@
  <body>
 
   <div class="wrapper">
+
    <h1>Anou Illustration</h1>
    <img src="images/fond_glace.jpg" class="image" />
+
+   <div class="nav">
+    <ul>
+      <li>About</li>
+      <li>Portfolio</li>
+    </ul>
+   </div>
+   
   </div>
   
  </body>
