@@ -69,12 +69,21 @@
 .main {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  padding: 40px;
 }
 
-.main li{
-  list-style: none;
+.about_text {
+  max-width: 470px;
+  padding:60px;
+}
+
+p {
+  font-family: verdana, sans-serif;
+  font-size: 12pt;
+  color: rgb(73,95,124);
 }
 
 .image {
