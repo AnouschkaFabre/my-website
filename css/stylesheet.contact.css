@@ -1,24 +1,15 @@
-@font-face {
-    font-family: MyCustomFont;
-    src: url("DK_Crayon_Crumble.eot") /* EOT file for IE */
-}
-@font-face {
-    font-family: MyCustomFont;
-    src: url("DK_Crayon_Crumble.ttf") /* TTF file for CSS3 browsers */
-}
-
 .wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 
 }
 
 .logo {
-  width: 396px;
-  margin-top: 10px;
+    width: 396px;
+    margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -38,13 +29,13 @@
  }
 
 .nav a {
-    font-family: dk crayon crumble, sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 20pt;
     color: rgb(73,95,124);
-  text-decoration: none;
-  margin-bottom: 30px;
-  padding-left: 92px;
-  padding-right: 92px;
+    text-decoration: none;
+    margin-bottom: 30px;
+    padding-left: 92px;
+    padding-right: 92px;
     border-bottom:3px solid white;
     height: 60px;
     flex-grow: 1;
@@ -53,7 +44,7 @@
 
 
 .active {
-  display:flex;
+    display:flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -63,20 +54,20 @@
 }
 
 .nav a.active {
-  color: white;
+    color: white;
 }
 
 .image {
-  padding-left: 7px;
-  padding-top: 5px;
-  padding-right: 7px;
-  padding-bottom: 5px;
+    padding-left: 7px;
+    padding-top: 5px;
+    padding-right: 7px;
+    padding-bottom: 5px;
 }
 
 body {
-  background-color:rgb(190,194,199);
-  background: url () no-repeat fixed;
-  background-size: cover;
+    background-color:rgb(190,194,199);
+    background: url () no-repeat fixed;
+    background-size: cover;
 }
 
 .footer {
@@ -87,41 +78,41 @@ body {
     height: 3em;
     margin-left: -8px;
     display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 
 .footer ul{
-  list-style: none;
-  margin-bottom: 0px;
-  display: flex;
-  flex-direction: row;
-  margin-right: 8px;
-  align-items: center;
-  font-family: verdana, sans-serif;
+    list-style: none;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    margin-right: 8px;
+    align-items: center;
+    font-family: verdana, sans-serif;
     font-size: 12pt;
     color: rgb(195,200,270);
 }
 
 .row {
-  display: flex;
-  flex-direction: column;
-  width: 350px;
-  height: auto;
-  flex-shrink: 1;
-  font-family: dk crayon crumble, sans-serif;
-  font-size: 17pt;
-  color: rgb(73,95,124);
-  margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: auto;
+    flex-shrink: 1;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 17pt;
+    color: rgb(73,95,124);
+    margin-top: 20px;
 }
 
 .button {
-  font-family: dk crayon crumble, sans-serif;
-  font-size: 17pt;
-  color: rgb(73,95,124);
-  margin-top: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 17pt;
+    color: rgb(73,95,124);
+    margin-top: 30px;
 }
 
 label {
-  margin-bottom: 7px;
+    margin-bottom: 7px;
 }
