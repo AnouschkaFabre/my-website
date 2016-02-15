@@ -136,6 +136,11 @@
 	flex-direction: column;
 	align-items: center;
 	padding-bottom: 29px;
+	margin-left: -38px;
+}
+
+.booktext {
+	margin-left: 38px;
 }
 
 .bookimages {
@@ -148,22 +153,57 @@
 .book li {
 	list-style: none;
 }
-.book p {
-    max-width: 315px;
-    text-align: justify;
-    font-family: verdana, sans-serif;
-    margin-top: 0px;
-    color:rgb(73,95,124);
-}
 
 .book h3 {
-	font-style: none;
+	font-style: regular;
 	font-family: dk crayon crumble, sans-serif;
-	font-size: 15pt;
+	font-size: 20pt;
 	color:rgb(73,95,124);
 	margin-top: 40px;
 	text-align: center;
+	margin-bottom: 5px;
 }
+
+.lineart {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 29px;
+	margin-top: 42px;
+	margin-left: -50px;
+}
+
+.lineartimages {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.lineart li {
+	list-style: none;
+}
+
+.illu {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 29px;
+	margin-top: 42px;
+	margin-left: -50px;
+}
+
+.illuimages {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.illuimages li {
+	list-style: none;
+}
+
 
 body {
 	background-color:rgb(190,194,199);
