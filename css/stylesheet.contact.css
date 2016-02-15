@@ -70,6 +70,10 @@ body {
     background-size: cover;
 }
 
+.deco {
+    margin-top: 80px;
+}
+
 .footer {
     position: fixed;
     bottom: 0;
